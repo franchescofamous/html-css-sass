@@ -1,6 +1,9 @@
-h1 {
-  color: red;
+.myFirstList {
+  font-size: 36px;
+  font-family: Calibri;
+  font-style: oblique;
 }
-#para {
-  color: red;
+
+.specialWord {
+  font-weight: bold;
 }
