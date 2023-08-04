@@ -1,0 +1,76 @@
+@mixin blocproportion($backgroundColor: red, $height: 300px, $width: 300px) {
+  height: $height;
+  width: $width;
+  background-color: $backgroundColor;
+}
+
+@mixin flexboxConfig(
+  $justifyContent: center,
+  $alignItems: center,
+  $flexDirection: row
+) {
+  display: flex;
+  flex-direction: $flexDirection;
+  justify-content: $justifyContent;
+  align-items: $alignItems;
+}
+.dynamic {
+  border: 7px double #cd8b65;
+  div {
+    @include flexboxConfig(space-around, baseline);
+  }
+  &__box1 {
+    @include blocproportion(yellow);
+    transition: all 1000ms;
+
+    &:hover {
+      background-color: red;
+    }
+  }
+  a {
+    text-decoration: none;
+    font-size: 1.3em;
+    color: rgb(154, 22, 165);
+    &:active {
+      color: red;
+    }
+    &:visited {
+      color: yellowgreen;
+    }
+  }
+  &__box2 {
+    @include blocproportion(maroon);
+  }
+  &__box3 {
+    @include blocproportion(gray);
+  }
+  &__link1 {
+    background-color: orange;
+    height: 1000px;
+    display: inline-block;
+    &:hover {
+      color: pink;
+    }
+  }
+}
+.card {
+  border: 1px dashed red;
+  margin-top: 55px;
+}
+section {
+  border: 1px dashed black;
+}
+article {
+  @include blocproportion(#071e22, 200px, 250px);
+}
+
+aside {
+  @include blocproportion(white, 80px, 250px);
+  padding-left: 10px;
+  p {
+    background-color: blueviolet;
+  }
+}
+.mar {
+  margin: 0;
+}

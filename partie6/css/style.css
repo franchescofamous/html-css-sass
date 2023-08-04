@@ -1,3 +1,78 @@
+.dynamic {
+  border: 7px double #cd8b65;
+}
+.dynamic div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+}
+.dynamic__box1 {
+  height: 300px;
+  width: 300px;
+  background-color: yellow;
+  transition: all 1000ms;
+}
+.dynamic__box1:hover {
+  background-color: red;
+}
+.dynamic a {
+  text-decoration: none;
+  font-size: 1.3em;
+  color: rgb(154, 22, 165);
+}
+.dynamic a:active {
+  color: red;
+}
+.dynamic a:visited {
+  color: yellowgreen;
+}
+.dynamic__box2 {
+  height: 300px;
+  width: 300px;
+  background-color: maroon;
+}
+.dynamic__box3 {
+  height: 300px;
+  width: 300px;
+  background-color: gray;
+}
+.dynamic__link1 {
+  background-color: orange;
+  height: 1000px;
+  display: inline-block;
+}
+.dynamic__link1:hover {
+  color: pink;
+}
 
+.card {
+  border: 1px dashed red;
+  margin-top: 55px;
+}
+
+section {
+  border: 1px dashed black;
+}
+
+article {
+  height: 200px;
+  width: 250px;
+  background-color: #071e22;
+}
+
+aside {
+  height: 80px;
+  width: 250px;
+  background-color: white;
+  padding-left: 10px;
+}
+aside p {
+  background-color: blueviolet;
+}
+
+.mar {
+  margin: 0;
+}
 
 /*# sourceMappingURL=style.css.map */
