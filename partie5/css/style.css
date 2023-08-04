@@ -1,0 +1,48 @@
+.boite {
+  border: 1px solid black;
+  height: 1200px;
+  display: flex;
+  justify-content: start;
+  gap: 50px;
+}
+.boite__1 {
+  height: 300px;
+  width: 200px;
+  background-color: gray;
+}
+.boite__2 {
+  height: 300px;
+  width: 200px;
+  background-color: pink;
+}
+.boite__3 {
+  height: 300px;
+  width: 200px;
+  background-color: aqua;
+}
+
+.custom1 {
+  font-style: italic;
+  color: red;
+  text-decoration: line-through;
+  font-size: 50px;
+}
+.custom2 {
+  font-style: oblique;
+  color: maroon;
+  text-decoration: line-through;
+  font-size: 25px;
+}
+.custom3 {
+  font-style: italic;
+  color: magenta;
+  text-decoration: line-through;
+  font-size: 100;
+}
+.custom4 {
+  font-style: oblique;
+  color: green;
+  text-decoration: line-through;
+}
+
+/*# sourceMappingURL=style.css.map */
